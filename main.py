@@ -5,7 +5,7 @@ from core.format_string import FormatString
 def main():
     path_in = 'data/data_in.txt'
     path_out = 'data/data_out.txt'
-    path_numbers_out = 'data/path_numbers_out.txt'
+    path_numbers_out = 'data/data_numbers_out.txt'
     data_in = ProcessFile.read_file(path_in)
 
     otp_flag = input('Столбец с OTP есть (y/n)?: ')
